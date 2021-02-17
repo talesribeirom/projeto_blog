@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # my apps
     'accounts',
     'core',
+    
 ]
 
 MIDDLEWARE = [
@@ -134,3 +135,17 @@ LOGIN_URL = 'login/'
 LOGIN_REDIRECT_URL = '/'
 
 LOGOUT_REDIRECT_URL = '/'
+
+# envio de email
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+EMAIL_HOST = 'host'
+
+EMAIL_PORT = 587
+
+EMAIL_USE_TLS = True
+
+EMAIL_HOST_USER = 'blog@emakers.com'
+
+EMAIL_HOST_PASSWORD = 'teste1234'
