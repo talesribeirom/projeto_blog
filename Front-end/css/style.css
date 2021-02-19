@@ -1,0 +1,45 @@
+.navbar{
+  background-color:  #FFFFFF
+ 
+}
+  .cabecalho{
+    font-family: 'Archivo', sans-serif;
+    color: rgb(10, 10, 10);
+  }
+  .bot{
+    color: #171519;
+    font-family: 'Archivo', sans-serif;
+    margin-right: 70px;
+  }
+  .btn-primary{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Archivo', sans-serif;
+    height: 34px;
+    width: 100px;
+    margin-right: 20px;
+    border: #FFFFFF;
+  }
+  .btn-primary > li.active > a, .btn-primary > li.active > a:hover, .btn-primary > li.active > a:focus{
+    background-color: black;
+  }
+
+.titulo{
+    color: #5E2075;
+    font-family: 'Archivo';
+    font-weight: 600;
+    font-style: italic;
+    
+}
+
+.sub{
+    color: gray;
+    font-family: 'Archivo';
+    font-weight: 600;
+    font-style: italic;
+}
+
+ /* font-family: 'archivo';
+    font-weight:
+    font-syze:
+    font-style:;
+    
