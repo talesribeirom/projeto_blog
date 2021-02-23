@@ -1,7 +1,8 @@
-.navbar{
-  background-color:  #FFFFFF
- 
-}
+  
+  .navbar{
+    background-color:  #FFFFFF
+  
+  }
   .cabecalho{
     font-family: 'Archivo', sans-serif;
     color: rgb(10, 10, 10);
@@ -11,22 +12,26 @@
     font-family: 'Archivo', sans-serif;
     margin-right: 70px;
   }
-  .btn-primary{
-    background-color: rgb(0, 0, 0);
+  .btn-primary  {
+    color: #fff;
+    background-color: black !important; 
     font-family: 'Archivo', sans-serif;
     height: 34px;
     width: 100px;
     margin-right: 20px;
     border: #FFFFFF;
   }
+
+  #test:hover{
+    color: black
+  }
+
+  .btn-primary:hover{
+    background-color: #ffa500 !important; 
+  }
   .btn-primary > li.active > a, .btn-primary > li.active > a:hover, .btn-primary > li.active > a:focus{
     background-color: black;
   }
-
-
-.slide{
-
-}
 
   .titulo{
     color:#5e207591;
