@@ -38,11 +38,15 @@
   .colu span{
     display: none;
   }
+  .colu-slide{
+    margin-left: 13%;
+  }
   .titulo{
     color:#5e207591;
     font-family: 'Archivo';
     font-weight: 600;
     font-style: italic;
+    font-size: 115%;
     margin-top: 9%;
     margin-bottom: 4%;
   }
@@ -54,6 +58,7 @@
     font-family: 'Archivo';
     font-weight: 600;
     font-style: italic;
+    font-size: 115%;
   }
   a:link { 
     text-decoration:none; 
@@ -62,13 +67,72 @@
     color: black;
   }
 
-  .cabecalho{
+.cabecalho{
     font-family: 'Archivo', sans-serif;
     color: #5E2075;
     font-weight: 600;
     font-style: italic;
+    margin-top: 10%;
   }
-
+  .col-ultimas{
+    margin-right: 8%;
+  }
+  .img-ultimas{
+    margin-top: 10%;
+  }
+  .titulo-ultimas{
+    font-family: 'Archivo', sans-serif;
+    color: #5e2075de;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .autor-data{
+    font-family: 'Archivo', sans-serif;
+    color: #5e2075b6;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 55%;
+    margin-bottom: 4%;
+  }
+  li{
+    list-style:none;
+  }
+  .descricao{
+    font-family: 'Archivo', sans-serif;
+    color: #171519;
+    font-weight: 600;
+    font-style: italic;
+  }
+.cabecalho-popular{
+  font-family: 'Archivo', sans-serif;
+  color: #5E2075;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 21%;
+  margin-bottom: 8%;
+}
+  .img-popular{
+    margin-top: 7%;
+    height: 85%;
+  }
+  .colu-popular{
+    margin-right: 5%;
+  }
+  .titulo-popular{
+    font-family: 'Archivo', sans-serif;
+    color: #5e2075b6;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 90%;
+    margin-bottom: 4%;
+  }
+  .descricao-popular{
+    font-family: 'Archivo', sans-serif;
+    color: #171519;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 90%;
+  }
 
 
  /* font-family: 'archivo';
