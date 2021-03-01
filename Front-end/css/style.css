@@ -12,7 +12,7 @@
   }
   .btn-primary  {
     color: #fff;
-    background-color: black !important; 
+    background-color: #ffa500 !important; 
     font-family: 'Archivo', sans-serif;
     height: 34px;
     width: 100px;
@@ -28,7 +28,7 @@
     color: black
   }
   .btn-primary:hover{
-    background-color: #ffa500 !important; 
+    background-color: #5E2075 !important; 
   }
 
 .colu{
@@ -67,7 +67,10 @@
     color: black;
   }
 
-.cabecalho{
+.slide{
+  border: none;
+}
+    .cabecalho{
     font-family: 'Archivo', sans-serif;
     color: #5E2075;
     font-weight: 600;
@@ -132,6 +135,71 @@
     font-weight: 600;
     font-style: italic;
     font-size: 90%;
+  }
+
+.news{
+  height: 400px;
+  background-color: #5E2075;]
+  border: none;
+}
+  .titulo-news{
+    font-family: 'Archivo', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 4%;
+    width:30%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+  }
+  .texto-email{
+    font-family: 'Archivo', sans-serif;
+    color: #FF6100;
+    font-weight: bold;
+    font-size: 60%;
+    margin-left: 30%;
+  }
+  .input-email{
+    background-color: #5E2075;
+    border-top: none;
+    border-left: none;
+    border-radius: none;
+    border-right: none;
+    border-color: #FF6100;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+  }
+  .form-check-input{
+    margin-left: 36%;
+    margin-top: ;
+  }
+  .form-check-lable{
+    font-family: 'Archivo', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 70%;
+    margin-left: 39%;
+    margin-bottom: 1%;
+  }
+  .btn-secondary{
+    color: #fff;
+    background-color:#5E2075 !important; 
+    font-family: 'Archivo', sans-serif;
+    margin-right: 20px;
+    border-color: #FF6100;
+    outline: none;
+    margin-left: 40%;
+  }
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  #test:hover{
+    color: black
+  }
+  .btn-secondary:hover{
+    background-color: #FF6100 !important; 
+    border-color: #FF6100;
   }
 
 
