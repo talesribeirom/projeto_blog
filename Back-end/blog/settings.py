@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     # my apps
     'accounts',
     'core',
-    
+    'post',
+    # 3rd party
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -128,6 +131,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_URL = '/media/'
+
+#explicando pro django onde ele vai pegar os arquivos de media 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'templates/media')
+
 AUTH_USER_MODEL = 'accounts.User'
 
 LOGIN_URL = 'login/'
@@ -149,3 +157,8 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'blog@emakers.com'
 
 EMAIL_HOST_PASSWORD = 'teste1234'
+
+# ckeditor
+
+# caso queira separar os uploads feito pelo ckeditor em outra pasta diferente da images
+CKEDITOR_UPLOAD_PATH = 'uploads/'
