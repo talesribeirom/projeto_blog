@@ -6,13 +6,13 @@ from django.contrib.auth.forms import UserCreationForm
 User = get_user_model()
 
 class Create_User(UserCreationForm):
-    firstname = forms.CharField(label='firstname', widget=forms.TextInput)
-    lastname = forms.CharField(label='lastame', widget=forms.TextInput)
-    email = forms.EmailField(label='email', widget=forms.EmailInput)
-    gender = forms.CharField(label='gender', widget=forms.TextInput)
-    city = forms.CharField(label='city', widget=forms.TextInput)
-    state = forms.CharField(label='state', widget=forms.TextInput)
-    date_born = forms.DateField(label='date_born', widget=forms.DateInput)
+    firstname = forms.CharField(label='Firstname', widget=forms.TextInput)
+    lastname = forms.CharField(label='Lastame', widget=forms.TextInput)
+    email = forms.EmailField(label='Email', widget=forms.EmailInput)
+    gender = forms.CharField(label='Gender', widget=forms.TextInput)
+    city = forms.CharField(label='City', widget=forms.TextInput)
+    state = forms.CharField(label='State', widget=forms.TextInput)
+    date_born = forms.DateField(label='Date_born', widget=forms.DateInput)
 
     class Meta(UserCreationForm.Meta):
         model = User
